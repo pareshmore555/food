@@ -4,11 +4,11 @@
     "slug": "food",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/sample1.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/sample.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#a63a79"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
