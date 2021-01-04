@@ -1,55 +1,51 @@
 import React from "react"
-import{StyleSheet,View,Button,Text,TouchableOpacity,Image}from "react-native";
+import{StyleSheet,View,Button,Text,TouchableOpacity,Image,ScrollView}from "react-native";
 
-function Acrepair() {
+function Acservice({navigation}) {
     return (
+     <ScrollView style={styles.container}>
       <View>
-      <TouchableOpacity onPress={()=>{}}>
+     
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/ac.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Ac Service</Text>
-           
+           <Text style={styles.cardtitle}>Ac Window Service</Text>
+           <View style={{marginLeft:130}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
          </View>
        </View>
-       </TouchableOpacity>
-      
-       <TouchableOpacity onPress={()=>{}}>
+    
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/ac.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Ac Repair</Text>
-          
-           <Text style={styles.carddetaila}>water leakage,no cooling,less cooling</Text>
-           
+           <Text style={styles.cardtitle}>Ac Split Service</Text>
+           <View style={{marginLeft:130}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >*</Text>
+           <Text style={styles.txtdetail} >* </Text>         
          </View>
        </View>
-       </TouchableOpacity>
-
-       <TouchableOpacity onPress={()=>{}}>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/ac.jpg")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Installation or unInstallation</Text>
-           
-           
-         </View>
-       </View>
-       </TouchableOpacity>
-
-       </View>
+        </View>
+       </ScrollView>
     );
   }
-export default Acrepair;
+export default Acservice;
 const styles=StyleSheet.create({
     container:{
         flex:1,
+        backgroundColor:"#fff"
         
     },
     cardswraper:{
@@ -58,7 +54,7 @@ const styles=StyleSheet.create({
       alignSelf:"center"
     },
     card:{
-      height:75,
+      height:170,
       marginVertical:10,
       flexDirection:"row",
       shadowColor:"#999",
@@ -71,8 +67,8 @@ const styles=StyleSheet.create({
       flex:1
     },
     cardimage:{
-     height:"100%",
-     width:"100%",
+     height:"50%",
+     width:"110%",
      alignSelf:'center',
      borderRadius:8,
      borderBottomRightRadius:0,
@@ -98,4 +94,8 @@ const styles=StyleSheet.create({
       fontSize:12,
       color:"#444"
     },
+    txtdetail:{
+      color:"#777777",
+      marginTop:10
+    }
 })

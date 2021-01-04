@@ -6,20 +6,20 @@ function Rorepair({navigation}) {
      <View style={styles.container}>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Roinstallation")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/roinstall.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Installation</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Rouninstalltion")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/roinstall.png")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Uninstallation</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Roservicing")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/roservice.png")}style={styles.cardimage}/>
         </View>
@@ -28,19 +28,14 @@ function Rorepair({navigation}) {
       </View>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Rorepairbook")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/rorepairing1.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Repair</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
-        <View style={styles.catagoryicon}>
-          <Image source={require("../assets/regular.png")}style={styles.cardimage} />
-        </View>
-        <Text style={styles.catagorybuttontxt}>Maintance</Text>
-        </TouchableOpacity>
+        
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/qm.png")}style={styles.cardimage}/>

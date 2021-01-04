@@ -27,6 +27,18 @@ import InstallationTv from "./Addtocart/InstallationTv"
 import UninstallationTv from "./Addtocart/UninstallationTv"
 import Tvspecker from "./Addtocart/Tvspecker"
 import Tvdead from "./Addtocart/Tvdead"
+import Acservice from "./Addtocart/Acservice"
+import Acrepairbook from "./Addtocart/Acrepairbook"
+import Acinstalluninstall from "./Addtocart/Acinstalluninstall"
+import SingleDoor from "./Addtocart/SingleDoor"
+import Sidebysidedoor from "./Addtocart/Sidebysidedoor"
+import DoubleDoor from "./Addtocart/DoubleDoor"
+import Roinstallation from "./Addtocart/Roinstallation"
+import Rouninstalltion from "./Addtocart/Rouninstallation"
+import Roservicing from "./Addtocart/Roservicing"
+import Rorepairbook from "./Addtocart/Rorepairbook"
+
+
 
 
 
@@ -64,6 +76,16 @@ const App=()=> {
         <Apstack.Screen name="UninstallaionTv" component={UninstallationTv} />
         <Apstack.Screen name="Tvspecker" component={Tvspecker} />
         <Apstack.Screen name="Tvdead" component={Tvdead} />
+        <Apstack.Screen name="Acservice" component={Acservice} />
+        <Apstack.Screen name="Acrepairbook" component={Acrepairbook} />
+        <Apstack.Screen name="Acinstalluninstall" component={Acinstalluninstall} />
+        <Apstack.Screen name="SingleDoor" component={SingleDoor} />
+        <Apstack.Screen name="Sidebysidedoor" component={Sidebysidedoor} />
+        <Apstack.Screen name="DoubleDoor" component={DoubleDoor} />
+        <Apstack.Screen name="Roinstallation" component={Roinstallation} />
+        <Apstack.Screen name="Rouninstalltion" component={Rouninstalltion} />
+        <Apstack.Screen name="Roservicing" component={Roservicing} />
+        <Apstack.Screen name="Rorepairbook" component={Rorepairbook} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

@@ -6,20 +6,20 @@ function Refrigerator({navigation}) {
      <View style={styles.container}>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("SingleDoor")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/singledoor.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>SingleDoor</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Sidebysidedoor")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/doubledoor.jpg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>SidebySideDoor</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("DoubleDoor")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/double2.png")}style={styles.cardimage}/>
         </View>
