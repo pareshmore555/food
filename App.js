@@ -42,6 +42,11 @@ import Geyseruninstall from "./Addtocart/Geyseruninstall"
 import Geyserservicing from "./Addtocart/Gyserservicing"
 import Geyserrepair from "./Addtocart/Gyserrepair"
 import Geysermaintance from "./Addtocart/Gysermaintance"
+import Aircoolerrepair from "./Addtocart/Aircoolerrepair"
+import Aircoolerpartreplace from "./Addtocart/Aircoolerpartreplace"
+import Aircoolermaintance from "./Addtocart/Aircoolermaintance"
+import Switchsocket from "./Addtocart/Switchsocket"
+import Fan from "./Addtocart/Fan"
 
 
 
@@ -96,6 +101,11 @@ const App=()=> {
         <Apstack.Screen name="Geyserservicing" component={Geyserservicing} />
         <Apstack.Screen name="Geyserrepair" component={Geyserrepair} />
         <Apstack.Screen name="Geysermaintance" component={Geysermaintance} />
+        <Apstack.Screen name="Aircoolerrepair" component={Aircoolerrepair} />
+        <Apstack.Screen name="Aircoolerpartreplace" component={Aircoolerpartreplace} />
+        <Apstack.Screen name="Aircoolermaintance" component={Aircoolermaintance} />
+        <Apstack.Screen name="Switchsocket" component={Switchsocket} />
+        <Apstack.Screen name="Fan" component={Fan} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

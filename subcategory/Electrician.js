@@ -8,7 +8,7 @@ function Electrcian({navigation}) {
     return (
      <View style={styles.container} >
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Switchsocket")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/switchsocket.jpg")}style={styles.cardimage} />
           
@@ -37,7 +37,7 @@ function Electrcian({navigation}) {
         </View>
         <Text style={styles.catagorybuttontxt}>Inverter</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Fan")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/fan.jpg")}style={styles.cardimage} />
         </View>

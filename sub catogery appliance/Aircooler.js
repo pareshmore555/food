@@ -6,20 +6,20 @@ function Aircooler({navigation}) {
      <View style={styles.container}>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Aircoolerrepair")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/coolerservice.jpg")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Repair</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Aircoolerpartreplace")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/coolerpart.jpg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>PartReplace</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Aircoolermaintance")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/coolermaintance.jpg")}style={styles.cardimage}/>
         </View>
