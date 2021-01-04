@@ -37,6 +37,11 @@ import Roinstallation from "./Addtocart/Roinstallation"
 import Rouninstalltion from "./Addtocart/Rouninstallation"
 import Roservicing from "./Addtocart/Roservicing"
 import Rorepairbook from "./Addtocart/Rorepairbook"
+import Geyserinstall from "./Addtocart/Geyserinstall"
+import Geyseruninstall from "./Addtocart/Geyseruninstall"
+import Geyserservicing from "./Addtocart/Gyserservicing"
+import Geyserrepair from "./Addtocart/Gyserrepair"
+import Geysermaintance from "./Addtocart/Gysermaintance"
 
 
 
@@ -86,6 +91,11 @@ const App=()=> {
         <Apstack.Screen name="Rouninstalltion" component={Rouninstalltion} />
         <Apstack.Screen name="Roservicing" component={Roservicing} />
         <Apstack.Screen name="Rorepairbook" component={Rorepairbook} />
+        <Apstack.Screen name="Geyserinstall" component={Geyserinstall} />
+        <Apstack.Screen name="Geyseruninstall" component={Geyseruninstall} />
+        <Apstack.Screen name="Geyserservicing" component={Geyserservicing} />
+        <Apstack.Screen name="Geyserrepair" component={Geyserrepair} />
+        <Apstack.Screen name="Geysermaintance" component={Geysermaintance} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

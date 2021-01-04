@@ -6,20 +6,20 @@ function Geyser({navigation}) {
      <View style={styles.container}>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Geyserinstall")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/geyserinstall.jpeg")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Installation</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Geyseruninstall")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/geyserinstall.jpeg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Uninstallation</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Geyserservicing")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/geyserservice.jpg")}style={styles.cardimage}/>
         </View>
@@ -28,14 +28,14 @@ function Geyser({navigation}) {
       </View>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Geyserrepair")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/rorepairing1.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Repair</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Geysermaintance")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/geysermaintance.jpg")}style={styles.cardimage} />
         </View>
