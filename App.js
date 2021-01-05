@@ -51,6 +51,12 @@ import Lightbook from "./Addtocart/Lightbook"
 import McbandFuse from "./Addtocart/McbandFuse"
 import Inverter from "./Addtocart/Inverter"
 import Wiring from "./Addtocart/Wiring"
+import Homepainting from "./Addtocart/Homepainting"
+import Waterproofing from "./Addtocart/Waterproofing"
+import Walltexured from "./Addtocart/Walltexured"
+import Enamelpainting from "./Addtocart/Enamelpainting"
+import WoodPolishing from "./Addtocart/WoodPolishing"
+import Wallpaper from "./Addtocart/Wallpaper"
 
 
 
@@ -114,6 +120,12 @@ const App=()=> {
         <Apstack.Screen name="McbandFuse" component={McbandFuse} />
         <Apstack.Screen name="Inverter" component={Inverter} />
         <Apstack.Screen name="Wiring" component={Wiring} />
+        <Apstack.Screen name="Homepainting" component={Homepainting} />
+        <Apstack.Screen name="Waterproofing" component={Waterproofing} />
+        <Apstack.Screen name="Walltexured" component={Walltexured} />
+        <Apstack.Screen name="Enamelpainting" component={Enamelpainting} />
+        <Apstack.Screen name="WoodPolishing" component={WoodPolishing} />
+        <Apstack.Screen name="Wallpaper" component={Wallpaper} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

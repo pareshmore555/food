@@ -8,42 +8,42 @@ function Painter({navigation}) {
     return (
      <View style={styles.container} >
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Homepainting")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/homepainting.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>HomePainting</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Waterproofing")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/waterproof.jpeg")}style={styles.cardimage} />
         </View>
-        <Text style={styles.catagorybuttontxt}>Waterproofing</Text>
+        <Text style={styles.catagorybuttontxt}>WaterProofing</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Walltexured")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/walltexure.jpg")}style={styles.cardimage}/>
         </View>
-        <Text style={styles.catagorybuttontxt}>Walltexure</Text>
+        <Text style={styles.catagorybuttontxt}>WallTexured</Text>
         </TouchableOpacity> 
       </View>
     
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Enamelpainting")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/enamel.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Enamel Painting</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("WoodPolishing")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/woodpolish.png")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Wood Polishing</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Wallpaper")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/walpaper.png")}style={styles.cardimage}/>
         </View>
