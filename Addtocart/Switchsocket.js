@@ -25,7 +25,7 @@ function Switchsocket({navigation}) {
     
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/switchboard.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/switchboardinstall.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Switch/Socket replacement</Text>

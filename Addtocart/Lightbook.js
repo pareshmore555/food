@@ -2,17 +2,17 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image,ScrollView}from "react-native";
 
-function Fan({navigation}) {
+function Lightbook({navigation}) {
     return (
      <ScrollView style={styles.container}>
       <View>
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/bulbreplace.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Repair</Text>
+           <Text style={styles.cardtitle}>Bulbs Replace</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -25,10 +25,10 @@ function Fan({navigation}) {
     
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/bulbholder.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Replace</Text>
+           <Text style={styles.cardtitle}>Bulbs holder installation</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -41,10 +41,10 @@ function Fan({navigation}) {
        
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/tubelightreplace.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Installation</Text>
+           <Text style={styles.cardtitle}>Tubelights Replace</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -56,10 +56,10 @@ function Fan({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/Bedlamps.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Uninstallation</Text>
+           <Text style={styles.cardtitle}>Bed Lamp Repair or Installation</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -71,10 +71,10 @@ function Fan({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/decorativefan.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/ledreplace.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Decorative fan installation</Text>
+           <Text style={styles.cardtitle}>CFL LED Replace</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -86,10 +86,10 @@ function Fan({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/regulatoroffan.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/decorativewalllight.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Regulator of ceilingfan replace </Text>
+           <Text style={styles.cardtitle}>Decorative Wall Lights and ceiling lights</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -104,7 +104,7 @@ function Fan({navigation}) {
        </ScrollView>
     );
   }
-export default Fan;
+export default Lightbook;
 const styles=StyleSheet.create({
     container:{
         flex:1,

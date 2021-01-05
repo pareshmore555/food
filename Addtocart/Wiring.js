@@ -2,17 +2,17 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image,ScrollView}from "react-native";
 
-function Fan({navigation}) {
+function Wiring({navigation}) {
     return (
      <ScrollView style={styles.container}>
       <View>
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/internalwiring.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Repair</Text>
+           <Text style={styles.cardtitle}>Internal Wiring(per 5m)</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -25,26 +25,27 @@ function Fan({navigation}) {
     
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/casingwiring.jpeg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Replace</Text>
+           <Text style={styles.cardtitle}>Casing Wiring(per 5m)</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
            </TouchableOpacity>
            </View>
-           <Text style={styles.txtdetail} >*</Text>
-           <Text style={styles.txtdetail} >* </Text>         
+           <Text style={styles.txtdetail} >* </Text>
+          
          </View>
        </View>
        
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/withoutcasingwiring.jpg
+           ")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Installation</Text>
+           <Text style={styles.cardtitle}>Wiring Without casing(per 5m)</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -54,57 +55,15 @@ function Fan({navigation}) {
            <Text style={styles.txtdetail} >* </Text>         
          </View>
        </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Uninstallation</Text>
-           <View style={{marginLeft:130}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>         
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/decorativefan.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Decorative fan installation</Text>
-           <View style={{marginLeft:130}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>         
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/regulatoroffan.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Regulator of ceilingfan replace </Text>
-           <View style={{marginLeft:130}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>         
-         </View>
-       </View>
+      
+       
+       
 
         </View>
        </ScrollView>
     );
   }
-export default Fan;
+export default Wiring;
 const styles=StyleSheet.create({
     container:{
         flex:1,

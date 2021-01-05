@@ -2,17 +2,17 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image,ScrollView}from "react-native";
 
-function Fan({navigation}) {
+function McbandFuse({navigation}) {
     return (
      <ScrollView style={styles.container}>
       <View>
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/fusereplace.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Repair</Text>
+           <Text style={styles.cardtitle}>Fuse Replace</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -25,26 +25,27 @@ function Fan({navigation}) {
     
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/mcbinstall1.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Replace</Text>
+           <Text style={styles.cardtitle}>Single pole mcb installation</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
            </TouchableOpacity>
            </View>
-           <Text style={styles.txtdetail} >*</Text>
-           <Text style={styles.txtdetail} >* </Text>         
+           <Text style={styles.txtdetail} >* 2 Pole -</Text>
+           <Text style={styles.txtdetail} >* 3 Pole - </Text>    
+           <Text style={styles.txtdetail} >* 4 Pole - </Text>      
          </View>
        </View>
        
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/submeterinstall.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Installation</Text>
+           <Text style={styles.cardtitle}>Sub meter installation</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -56,10 +57,10 @@ function Fan({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/fanrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/3phaseswitch.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Fan Uninstallation</Text>
+           <Text style={styles.cardtitle}>3 Phase Changeover Switch Installation</Text>
            <View style={{marginLeft:130}}> 
            <TouchableOpacity onPress={()=>{}}>
            <Button title="Book"  ></Button>
@@ -69,42 +70,14 @@ function Fan({navigation}) {
            <Text style={styles.txtdetail} >* </Text>         
          </View>
        </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/decorativefan.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Decorative fan installation</Text>
-           <View style={{marginLeft:130}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>         
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/regulatoroffan.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Regulator of ceilingfan replace </Text>
-           <View style={{marginLeft:130}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>         
-         </View>
-       </View>
+       
+       
 
         </View>
        </ScrollView>
     );
   }
-export default Fan;
+export default McbandFuse;
 const styles=StyleSheet.create({
     container:{
         flex:1,

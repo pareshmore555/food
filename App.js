@@ -47,6 +47,10 @@ import Aircoolerpartreplace from "./Addtocart/Aircoolerpartreplace"
 import Aircoolermaintance from "./Addtocart/Aircoolermaintance"
 import Switchsocket from "./Addtocart/Switchsocket"
 import Fan from "./Addtocart/Fan"
+import Lightbook from "./Addtocart/Lightbook"
+import McbandFuse from "./Addtocart/McbandFuse"
+import Inverter from "./Addtocart/Inverter"
+import Wiring from "./Addtocart/Wiring"
 
 
 
@@ -106,6 +110,10 @@ const App=()=> {
         <Apstack.Screen name="Aircoolermaintance" component={Aircoolermaintance} />
         <Apstack.Screen name="Switchsocket" component={Switchsocket} />
         <Apstack.Screen name="Fan" component={Fan} />
+        <Apstack.Screen name="Lightbook" component={Lightbook} />
+        <Apstack.Screen name="McbandFuse" component={McbandFuse} />
+        <Apstack.Screen name="Inverter" component={Inverter} />
+        <Apstack.Screen name="Wiring" component={Wiring} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

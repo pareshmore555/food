@@ -15,13 +15,13 @@ function Electrcian({navigation}) {
         </View>
         <Text style={styles.catagorybuttontxt}>Switch Socket</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Lightbook")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/light.png")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Light</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("McbandFuse")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/mcbfuse.jpg")}style={styles.cardimage}/>
         </View>
@@ -30,7 +30,7 @@ function Electrcian({navigation}) {
       </View>
     
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Inverter")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/inverter.png")}style={styles.cardimage} />
           
@@ -43,7 +43,7 @@ function Electrcian({navigation}) {
         </View>
         <Text style={styles.catagorybuttontxt}>Fan</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Wiring")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/wire.png")}style={styles.cardimage}/>
         </View>
