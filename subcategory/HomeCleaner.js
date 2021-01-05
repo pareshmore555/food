@@ -1,10 +1,10 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image}from "react-native";
 
-function HomeCleaner() {
+function HomeCleaner({navigation}) {
     return (
       <View>
-      <TouchableOpacity onPress={()=>{}}>
+      <TouchableOpacity onPress={()=>navigation.navigate("Carcleaning")}>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/carclean.png")}resizeMode="cover" style={styles.cardimage}/>
@@ -16,7 +16,7 @@ function HomeCleaner() {
        </View>
        </TouchableOpacity>
       
-       <TouchableOpacity onPress={()=>{}}>
+       <TouchableOpacity onPress={()=>navigation.navigate("HomeOfficeclean")}>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/homeclean.png")}resizeMode="cover" style={styles.cardimage}/>
@@ -30,7 +30,7 @@ function HomeCleaner() {
        </View>
        </TouchableOpacity>
 
-       <TouchableOpacity onPress={()=>{}}>
+       <TouchableOpacity onPress={()=>navigation.navigate("Sofaclean")}>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/sofaclean.jpg")}resizeMode="cover" style={styles.cardimage}/>
@@ -42,7 +42,7 @@ function HomeCleaner() {
          </View>
        </View>
        </TouchableOpacity>
-       <TouchableOpacity onPress={()=>{}}>
+       <TouchableOpacity onPress={()=>navigation.navigate("Bathroomclean")}>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/bathroomclean.png")}resizeMode="cover" style={styles.cardimage}/>
@@ -54,7 +54,7 @@ function HomeCleaner() {
        </View>
        </TouchableOpacity>
       
-       <TouchableOpacity onPress={()=>{}}>
+       <TouchableOpacity onPress={()=>navigation.navigate("Kitchenclean")}>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/kitchenclean.jpg")}resizeMode="cover" style={styles.cardimage}/>
@@ -68,7 +68,7 @@ function HomeCleaner() {
        </View>
        </TouchableOpacity>
 
-       <TouchableOpacity onPress={()=>{}}>
+       <TouchableOpacity onPress={()=>navigation.navigate("Carpetclean")}>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
            <Image source={require("../assets/carpetclean.jpg")}resizeMode="cover" style={styles.cardimage}/>

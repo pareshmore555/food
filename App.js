@@ -57,6 +57,17 @@ import Walltexured from "./Addtocart/Walltexured"
 import Enamelpainting from "./Addtocart/Enamelpainting"
 import WoodPolishing from "./Addtocart/WoodPolishing"
 import Wallpaper from "./Addtocart/Wallpaper"
+import Carcleaning from "./Addtocart/Carcleaning"
+import Hatchbackcar from "./Addtocart/Hatchbackcar"
+import Compactsuv from "./Addtocart/Compactsuv"
+import Suvcar from "./Addtocart/Suvcar"
+import Sedancar from "./Addtocart/Sedancar"
+import Luxurycar from "./Addtocart/Luxurycar"
+import HomeOfficeclean from "./Addtocart/HomeOfficeclean"
+import Sofaclean from "./Addtocart/Sofaclean"
+import Bathroomclean from "./Addtocart/Bathroomclean"
+import Kitchenclean from "./Addtocart/Kitchenclean"
+import Carpetclean from "./Addtocart/Carpetclean"
 
 
 
@@ -126,6 +137,17 @@ const App=()=> {
         <Apstack.Screen name="Enamelpainting" component={Enamelpainting} />
         <Apstack.Screen name="WoodPolishing" component={WoodPolishing} />
         <Apstack.Screen name="Wallpaper" component={Wallpaper} />
+        <Apstack.Screen name="Carcleaning" component={Carcleaning} />
+        <Apstack.Screen name="Hatchbackcar" component={Hatchbackcar} />
+        <Apstack.Screen name="Compactsuv" component={Compactsuv} />
+        <Apstack.Screen name="Suvcar" component={Suvcar} />
+        <Apstack.Screen name="Sedancar" component={Sedancar} />
+        <Apstack.Screen name="Luxurycar" component={Luxurycar} />
+        <Apstack.Screen name="HomeOfficeclean" component={HomeOfficeclean} />
+        <Apstack.Screen name="Sofaclean" component={Sofaclean} />
+        <Apstack.Screen name="Bathroomclean" component={Bathroomclean} />
+        <Apstack.Screen name="Kitchenclean" component={Kitchenclean} />
+        <Apstack.Screen name="Carpetclean" component={Carpetclean} />
       </Apstack.Navigator>
     </NavigationContainer>
   );
