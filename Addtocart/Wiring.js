@@ -41,8 +41,7 @@ function Wiring({navigation}) {
        
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/withoutcasingwiring.jpg
-           ")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/withoutcasingwiring.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Wiring Without casing(per 5m)</Text>
