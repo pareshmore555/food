@@ -76,6 +76,8 @@ import Toilet from "./Addtocart/Toilet"
 import WaterTank from "./Addtocart/WaterTank"
 import Motor from "./Addtocart/Motor"
 import Minorinstallation from "./Addtocart/Minorinstallation"
+import Bed from "./Addtocart/Bed"
+import Cupboard from "./Addtocart/Cupboard"
 
 
 
@@ -164,6 +166,8 @@ const App=()=> {
         <Apstack.Screen name="WaterTank" component={WaterTank} />
         <Apstack.Screen name="Motor" component={Motor} />
         <Apstack.Screen name="Minorinstallation" component={Minorinstallation} />
+        <Apstack.Screen name="Bed" component={Bed} />
+        <Apstack.Screen name="Cupboard" component={Cupboard} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

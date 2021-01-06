@@ -8,14 +8,14 @@ function Carpenter({navigation}) {
     return (
      <View style={styles.container} >
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Bed")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/bed.jpg")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Bed</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Cupboard")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/cupboard.jpg")}style={styles.cardimage} />
         </View>
