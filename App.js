@@ -68,6 +68,14 @@ import Sofaclean from "./Addtocart/Sofaclean"
 import Bathroomclean from "./Addtocart/Bathroomclean"
 import Kitchenclean from "./Addtocart/Kitchenclean"
 import Carpetclean from "./Addtocart/Carpetclean"
+import BasinSink from "./Addtocart/BasinSink"
+import Bathfitting from "./Addtocart/Bathfitting"
+import Blockage from "./Addtocart/Blockage"
+import TapMixer from "./Addtocart/TapMixer"
+import Toilet from "./Addtocart/Toilet"
+import WaterTank from "./Addtocart/WaterTank"
+import Motor from "./Addtocart/Motor"
+import Minorinstallation from "./Addtocart/Minorinstallation"
 
 
 
@@ -148,6 +156,14 @@ const App=()=> {
         <Apstack.Screen name="Bathroomclean" component={Bathroomclean} />
         <Apstack.Screen name="Kitchenclean" component={Kitchenclean} />
         <Apstack.Screen name="Carpetclean" component={Carpetclean} />
+        <Apstack.Screen name="BasinSink" component={BasinSink} />
+        <Apstack.Screen name="Bathfitting" component={Bathfitting} />
+        <Apstack.Screen name="Blockage" component={Blockage} />
+        <Apstack.Screen name="TapMixer" component={TapMixer} />
+        <Apstack.Screen name="Toilet" component={Toilet} />
+        <Apstack.Screen name="WaterTank" component={WaterTank} />
+        <Apstack.Screen name="Motor" component={Motor} />
+        <Apstack.Screen name="Minorinstallation" component={Minorinstallation} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

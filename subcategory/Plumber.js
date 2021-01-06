@@ -8,20 +8,20 @@ function Plumber({navigation}) {
     return (
      <View style={styles.container} >
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("BasinSink")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/basin.jpg")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Basin & sink</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Bathfitting")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/bath.png")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>BathFitting</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Blockage")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/blockage.jpg")}style={styles.cardimage}/>
         </View>
@@ -30,20 +30,20 @@ function Plumber({navigation}) {
       </View>
     
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("TapMixer")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/tap.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Tap & Mixture</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Toilet")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/toilet.jpg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Toilet</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("WaterTank")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/watertank.png")}style={styles.cardimage}/>
         </View>
@@ -52,14 +52,14 @@ function Plumber({navigation}) {
         
       </View>
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Motor")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/motor.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Motor</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Minorinstallation")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/minorinstall.png")}style={styles.cardimage} />
         </View>
