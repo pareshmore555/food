@@ -2,11 +2,11 @@ import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image}from "react-native";
 import { withTheme } from "react-native-paper";
 
-function Beutician() {
+function Beutician({navigation}) {
     return (
       <View style={styles.container}>
         <Text style={{fontWeight:"bold"}}>Only for Womans</Text>
-      <TouchableOpacity style={styles.card} >
+      <TouchableOpacity style={styles.card}onPress={()=>navigation.navigate("PrimeBeutician")} >
         <Image source={require("../assets/primebeutician.jpg")}style={styles.cardimage} />
         <Text style={styles.cardtxt}>
           Prime
