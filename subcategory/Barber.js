@@ -2,18 +2,18 @@ import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image}from "react-native";
 import { withTheme } from "react-native-paper";
 
-function Barber() {
+function Barber({navigation}) {
     return (
       <View style={styles.container}>
-        <Text style={{fontWeight:"bold"}}>Only for Womans</Text>
-      <TouchableOpacity style={styles.card} >
+        <Text style={{fontWeight:"bold"}}>Only for Mens</Text>
+      <TouchableOpacity style={styles.card}onPress={()=>navigation.navigate("PrimeBarber")} >
         <Image source={require("../assets/primebarber.jpg")}style={styles.cardimage} />
         <Text style={styles.cardtxt}>
           Prime
         </Text>
 
       </TouchableOpacity>
-      <TouchableOpacity style={styles.card1} >
+      <TouchableOpacity style={styles.card1}onPress={()=>navigation.navigate("ClassicBarber")} >
         <Image source={require("../assets/classicbarber.jpg")}style={styles.cardimage} />
 
         <Text style={styles.cardtxt}>

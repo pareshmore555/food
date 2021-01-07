@@ -1,7 +1,7 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image}from "react-native";
 
-function PrimeBeutician({navigation}) {
+function ClassicBarber({navigation}) {
     return (
      <View style={styles.container}>
 
@@ -49,7 +49,7 @@ function PrimeBeutician({navigation}) {
     </View>
     );
   }
-export default PrimeBeutician;
+export default ClassicBarber;
 const styles=StyleSheet.create({
     container:{
         flex:1,

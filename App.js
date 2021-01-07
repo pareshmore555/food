@@ -82,6 +82,9 @@ import Door from "./Addtocart/Door"
 import FurnitureRepair from "./Addtocart/FurnitureRepair"
 import Window from "./Addtocart/Window"
 import PrimeBeutician from "./Addtocart/PrimeBeutician"
+import ClassicBeutician from "./Addtocart/ClassicBeutician"
+import PrimeBarber from "./Addtocart/PrimeBarber"
+import ClassicBarber from "./Addtocart/ClassicBarber"
 
 
 
@@ -184,6 +187,9 @@ const App=()=> {
         <Apstack.Screen name="FurnitureRepair" component={FurnitureRepair} />
         <Apstack.Screen name="Window" component={Window} />
         <Apstack.Screen name="PrimeBeutician" component={PrimeBeutician} />
+        <Apstack.Screen name="ClassicBeutician" component={ClassicBeutician} />
+        <Apstack.Screen name="PrimeBarber" component={PrimeBarber} />
+        <Apstack.Screen name="ClassicBarber" component={ClassicBarber} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

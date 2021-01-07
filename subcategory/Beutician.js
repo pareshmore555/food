@@ -13,7 +13,7 @@ function Beutician({navigation}) {
         </Text>
 
       </TouchableOpacity>
-      <TouchableOpacity style={styles.card1} >
+      <TouchableOpacity style={styles.card1}onPress={()=>navigation.navigate("ClassicBeutician")} >
         <Image source={require("../assets/primebeutician.jpg")}style={styles.cardimage} />
 
         <Text style={styles.cardtxt}>
