@@ -78,6 +78,17 @@ import Motor from "./Addtocart/Motor"
 import Minorinstallation from "./Addtocart/Minorinstallation"
 import Bed from "./Addtocart/Bed"
 import Cupboard from "./Addtocart/Cupboard"
+import Door from "./Addtocart/Door"
+import FurnitureRepair from "./Addtocart/FurnitureRepair"
+import Window from "./Addtocart/Window"
+
+
+
+
+
+
+
+
 
 
 
@@ -168,6 +179,9 @@ const App=()=> {
         <Apstack.Screen name="Minorinstallation" component={Minorinstallation} />
         <Apstack.Screen name="Bed" component={Bed} />
         <Apstack.Screen name="Cupboard" component={Cupboard} />
+        <Apstack.Screen name="Door" component={Door} />
+        <Apstack.Screen name="FurnitureRepair" component={FurnitureRepair} />
+        <Apstack.Screen name="Window" component={Window} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

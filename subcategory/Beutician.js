@@ -7,14 +7,14 @@ function Beutician() {
       <View style={styles.container}>
         <Text style={{fontWeight:"bold"}}>Only for Womans</Text>
       <TouchableOpacity style={styles.card} >
-        <Image source={require("../assets/walpaper.png")}style={styles.cardimage} />
+        <Image source={require("../assets/primebeutician.jpg")}style={styles.cardimage} />
         <Text style={styles.cardtxt}>
           Prime
         </Text>
 
       </TouchableOpacity>
       <TouchableOpacity style={styles.card1} >
-        <Image source={require("../assets/walpaper.png")}style={styles.cardimage} />
+        <Image source={require("../assets/primebeutician.jpg")}style={styles.cardimage} />
 
         <Text style={styles.cardtxt}>
           Classic

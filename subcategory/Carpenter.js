@@ -21,7 +21,7 @@ function Carpenter({navigation}) {
         </View>
         <Text style={styles.catagorybuttontxt}>Cupboard</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Door")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/door.jpg")}style={styles.cardimage}/>
         </View>
@@ -30,20 +30,15 @@ function Carpenter({navigation}) {
       </View>
     
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("FurnitureRepair")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/furniture.png")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Furniture repair</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
-        <View style={styles.catagoryicon}>
-          <Image source={require("../assets/furniture.png")}style={styles.cardimage} />
-        </View>
-        <Text style={styles.catagorybuttontxt}>Furniture Assemble</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>{}}>
+       
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Window")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/window.png")}style={styles.cardimage}/>
         </View>
