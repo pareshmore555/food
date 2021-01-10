@@ -85,6 +85,11 @@ import PrimeBeutician from "./Addtocart/PrimeBeutician"
 import ClassicBeutician from "./Addtocart/ClassicBeutician"
 import PrimeBarber from "./Addtocart/PrimeBarber"
 import ClassicBarber from "./Addtocart/ClassicBarber"
+import PrimeThreading from "./Addtocart/PrimeThreading"
+import PrimeBleaching from "./Addtocart/PrimeBleaching"
+import PrimeWaxing from "./Addtocart/PrimeWaxing"
+import PrimeFacials from "./Addtocart/PrimeFacials"
+import PrimeHaircut from "./Addtocart/PrimeHaircut"
 
 
 
@@ -190,6 +195,11 @@ const App=()=> {
         <Apstack.Screen name="ClassicBeutician" component={ClassicBeutician} />
         <Apstack.Screen name="PrimeBarber" component={PrimeBarber} />
         <Apstack.Screen name="ClassicBarber" component={ClassicBarber} />
+        <Apstack.Screen name="PrimeThreading" component={PrimeThreading} />
+        <Apstack.Screen name="PrimeBleaching" component={PrimeBleaching} />
+        <Apstack.Screen name="PrimeWaxing" component={PrimeWaxing} />
+        <Apstack.Screen name="PrimeFacials" component={PrimeFacials} />
+        <Apstack.Screen name="PrimeHaircut" component={PrimeHaircut} />
       </Apstack.Navigator>
     </NavigationContainer>
   );

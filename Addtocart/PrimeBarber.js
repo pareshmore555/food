@@ -8,38 +8,44 @@ function PrimeBarber({navigation}) {
       <View style={styles.catagorycontainer}>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Hatchbackcar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/hatchback.png")}style={styles.cardimage} />
+          <Image source={require("../assets/Hairessential.jpg")}style={styles.cardimage} />
           
         </View>
-        <Text style={styles.catagorybuttontxt}>Threading And Waxing</Text>
+        <Text style={styles.catagorybuttontxt}>Hair Essential</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Compactsuv")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/subcompactsuv.png")}style={styles.cardimage} />
+          <Image source={require("../assets/haircolorboy.jpg")}style={styles.cardimage} />
         </View>
-        <Text style={styles.catagorybuttontxt}>Bleaching</Text>
+        <Text style={styles.catagorybuttontxt}>Hair Coloring</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Suvcar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/suv.jpg")}style={styles.cardimage}/>
+          <Image source={require("../assets/beautyessentialboy.jpg")}style={styles.cardimage}/>
         </View>
-        <Text style={styles.catagorybuttontxt}>Waxing</Text>
+        <Text style={styles.catagorybuttontxt}>BeautyEssential</Text>
         </TouchableOpacity> 
       </View>
 
       <View style={styles.catagorycontainer}>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Sedancar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/Sedan.png")}style={styles.cardimage} />
+          <Image source={require("../assets/bodyessentialboy.jpg")}style={styles.cardimage} />
           
         </View>
-        <Text style={styles.catagorybuttontxt}>Facials</Text>
+        <Text style={styles.catagorybuttontxt}>Body Essentials</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Luxurycar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/luxury.png")}style={styles.cardimage} />
+          <Image source={require("../assets/bodyessentialboy.jpg")}style={styles.cardimage} />
         </View>
-        <Text style={styles.catagorybuttontxt}>Haircut And Color</Text>
+        <Text style={styles.catagorybuttontxt}>Waxing</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Luxurycar")}>
+        <View style={styles.catagoryicon}>
+          <Image source={require("../assets/Bleachingboy.jpg")}style={styles.cardimage} />
+        </View>
+        <Text style={styles.catagorybuttontxt}>Bleach</Text>
         </TouchableOpacity>
         
       </View>
@@ -124,7 +130,7 @@ const styles=StyleSheet.create({
           flex:1
         },
         cardimage:{
-         height:"100%",
+         height:"120%",
          width:"130%",
          alignSelf:'center',
          borderRadius:8,

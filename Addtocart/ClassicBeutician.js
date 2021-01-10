@@ -8,20 +8,20 @@ function ClassicBeutician({navigation}) {
       <View style={styles.catagorycontainer}>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Hatchbackcar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/hatchback.png")}style={styles.cardimage} />
+          <Image source={require("../assets/threading.jpeg")}style={styles.cardimage} />
           
         </View>
-        <Text style={styles.catagorybuttontxt}>Threading And Waxing</Text>
+        <Text style={styles.catagorybuttontxt}>Threading</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Compactsuv")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/subcompactsuv.png")}style={styles.cardimage} />
+          <Image source={require("../assets/bleachgirl.jpg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Bleaching</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Suvcar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/suv.jpg")}style={styles.cardimage}/>
+          <Image source={require("../assets/waxinggirl.jpg")}style={styles.cardimage}/>
         </View>
         <Text style={styles.catagorybuttontxt}>Waxing</Text>
         </TouchableOpacity> 
@@ -30,14 +30,14 @@ function ClassicBeutician({navigation}) {
       <View style={styles.catagorycontainer}>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Sedancar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/Sedan.png")}style={styles.cardimage} />
+          <Image source={require("../assets/facialgirl.jpg")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Facials</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Luxurycar")}>
         <View style={styles.catagoryicon}>
-          <Image source={require("../assets/luxury.png")}style={styles.cardimage} />
+          <Image source={require("../assets/haircutgirl.jpg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Haircut And Color</Text>
         </TouchableOpacity>
