@@ -9,7 +9,7 @@ function PrimeThreading({navigation}) {
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/eyebrothreading.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Eyebrows</Text>
@@ -26,7 +26,7 @@ function PrimeThreading({navigation}) {
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/uperlipthreading.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Upperlip</Text>
@@ -43,7 +43,7 @@ function PrimeThreading({navigation}) {
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/lowerlipthreading.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Lower lip</Text>
@@ -59,7 +59,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/neckthreading.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Chain</Text>
@@ -75,7 +75,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/foreheadthreading.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Forehead</Text>
@@ -91,7 +91,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/neckthreading.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Neck</Text>
@@ -107,7 +107,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/sideburn.webp")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Side burns</Text>
@@ -123,7 +123,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/fullfacethreading.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Full face</Text>
@@ -139,7 +139,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/neckthreading.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Full face/Neck</Text>
@@ -155,7 +155,7 @@ function PrimeThreading({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/eyebrotitningthread.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
            <Text style={styles.cardtitle}>Eyebrows tinting</Text>

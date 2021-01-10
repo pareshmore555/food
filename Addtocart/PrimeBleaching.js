@@ -9,10 +9,10 @@ function PrimeBleaching({navigation}) {
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/fullbfacebleaching.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Eyebrows</Text>
+           <Text style={styles.cardtitle}>Full face</Text>
          
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -26,10 +26,10 @@ function PrimeBleaching({navigation}) {
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/fullarmwaxing.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Upperlip</Text>
+           <Text style={styles.cardtitle}>Full Arms</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -43,10 +43,10 @@ function PrimeBleaching({navigation}) {
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/legsbleaching.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Lower lip</Text>
+           <Text style={styles.cardtitle}>Full Legs</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -59,10 +59,10 @@ function PrimeBleaching({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/backbleaching.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Chain</Text>
+           <Text style={styles.cardtitle}>Full Back</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -75,10 +75,10 @@ function PrimeBleaching({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/stomuchbleaching.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Forehead</Text>
+           <Text style={styles.cardtitle}>Stomach</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -89,97 +89,7 @@ function PrimeBleaching({navigation}) {
            <Text style={styles.txtdetail} >* </Text>
          </View>
        </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Neck</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Side burns</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Full face</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Full face/Neck</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Eyebrows tinting</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-
-
        
-
-
-   
-
-
-       
-    
-    
     
     
        

@@ -9,10 +9,10 @@ function PrimeFacials({navigation}) {
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/basiccleaningfacial.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Eyebrows</Text>
+           <Text style={styles.cardtitle}>Basic Cleaning</Text>
          
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -26,10 +26,10 @@ function PrimeFacials({navigation}) {
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/basicfacial.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Upperlip</Text>
+           <Text style={styles.cardtitle}>Basic Facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -43,10 +43,10 @@ function PrimeFacials({navigation}) {
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/goldfacial.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Lower lip</Text>
+           <Text style={styles.cardtitle}>Gold Facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -59,10 +59,10 @@ function PrimeFacials({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/fruitfacial.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Chain</Text>
+           <Text style={styles.cardtitle}>Fruit Facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -75,10 +75,10 @@ function PrimeFacials({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/siliverfacial.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Forehead</Text>
+           <Text style={styles.cardtitle}>Silver Facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -91,10 +91,10 @@ function PrimeFacials({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/diamondfacial.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Neck</Text>
+           <Text style={styles.cardtitle}>Diamond Facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -107,10 +107,10 @@ function PrimeFacials({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/pearlfacial.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Side burns</Text>
+           <Text style={styles.cardtitle}>Pearl Facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -121,55 +121,7 @@ function PrimeFacials({navigation}) {
            <Text style={styles.txtdetail} >* </Text>
          </View>
        </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Full face</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Full face/Neck</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Eyebrows tinting</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-
+      
 
        
 

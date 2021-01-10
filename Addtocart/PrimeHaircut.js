@@ -9,10 +9,10 @@ function PrimeHaircut({navigation}) {
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/boycut.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Eyebrows</Text>
+           <Text style={styles.cardtitle}>Boy Cut</Text>
          
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -20,145 +20,16 @@ function PrimeHaircut({navigation}) {
            </TouchableOpacity>
            </View>
            <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
+           
          </View>
        </View>
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/Basinrepair.png")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/babycut.png")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Upperlip</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Lower lip</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Chain</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Forehead</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Neck</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Side burns</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Full face</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Full face/Neck</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Eyebrows tinting</Text>
+           <Text style={styles.cardtitle}>Baby cut</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -170,6 +41,204 @@ function PrimeHaircut({navigation}) {
          </View>
        </View>
 
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/mashroomcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Mashroom Cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/dovecut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Dove Cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/applecut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Apple Cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/bluntcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Blunt Cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/strightcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Stright cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+      
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/ucut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>U cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+      
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/feathercut.jpeg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Feather cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/layercut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>layer cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+      
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/stepcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>step cut</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/headmassage.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Head Massage</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/hairheighlight.webp")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Hair Heighlight</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/westpipe.png")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Hair Spa</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+      
+      
+      
 
        
 
@@ -218,7 +287,7 @@ const styles=StyleSheet.create({
       flex:1
     },
     cardimage:{
-     height:"50%",
+     height:"100%",
      width:"110%",
      alignSelf:'center',
      borderRadius:8,
