@@ -12,7 +12,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/menshaircut.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Matrix Men</Text>
+           <Text style={styles.cardtitle}>Forever young facial</Text>
          
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -29,7 +29,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/haircutchildboy.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Men</Text>
+           <Text style={styles.cardtitle}>Bio marine whitening facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -46,7 +46,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/shavingmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Up to shoulder</Text>
+           <Text style={styles.cardtitle}>Hair affiair skin tightening facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -62,7 +62,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/lorealshavingmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Below shoulder</Text>
+           <Text style={styles.cardtitle}>Gold facial</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -78,7 +78,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/uptoshoulder.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Up to Waist</Text>
+           <Text style={styles.cardtitle}>Acne treatment</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -94,7 +94,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/belowtoshoulder.jpeg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Root touchup</Text>
+           <Text style={styles.cardtitle}>Anti tan</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -110,7 +110,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/liptowaistblow.jpeg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>High lightup to shoulder</Text>
+           <Text style={styles.cardtitle}>Pigmentation treatment</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -126,7 +126,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/uptowaistmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>High light blow shoulder </Text>
+           <Text style={styles.cardtitle}>Herbal </Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -142,7 +142,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/washhairmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>hi light up waist </Text>
+           <Text style={styles.cardtitle}>Skin repair skin up</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -158,7 +158,7 @@ function Primebeautyessentialmen({navigation}) {
            <Image source={require("../assets/blowremen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Profile area striking </Text>
+           <Text style={styles.cardtitle}>Instant glow clean up</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -169,6 +169,23 @@ function Primebeautyessentialmen({navigation}) {
            <Text style={styles.txtdetail} >* </Text>
          </View>
        </View>
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/blowremen.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>clean up</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+       
        
 
        
