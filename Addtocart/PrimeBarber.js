@@ -6,20 +6,20 @@ function PrimeBarber({navigation}) {
      <View style={styles.container}>
 
       <View style={styles.catagorycontainer}>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Hatchbackcar")}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("PrimeHairEssential")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/Hairessential.jpg")}style={styles.cardimage} />
           
         </View>
         <Text style={styles.catagorybuttontxt}>Hair Essential</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Compactsuv")}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("HairColoringmens")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/haircolorboy.jpg")}style={styles.cardimage} />
         </View>
         <Text style={styles.catagorybuttontxt}>Hair Coloring</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Suvcar")}>
+        <TouchableOpacity style={styles.catagorybutton}onPress={()=>navigation.navigate("Primebeautyessentialmen")}>
         <View style={styles.catagoryicon}>
           <Image source={require("../assets/beautyessentialboy.jpg")}style={styles.cardimage}/>
         </View>

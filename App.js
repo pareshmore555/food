@@ -90,6 +90,14 @@ import PrimeBleaching from "./Addtocart/PrimeBleaching"
 import PrimeWaxing from "./Addtocart/PrimeWaxing"
 import PrimeFacials from "./Addtocart/PrimeFacials"
 import PrimeHaircut from "./Addtocart/PrimeHaircut"
+import ClassicThreading from "./Addtocart/ClassicThreading"
+import ClassicBleaching from "./Addtocart/ClassicBleaching"
+import ClassicWaxing  from "./Addtocart/ClassicWaxing"
+import ClassicFacial from "./Addtocart/ClassicFacial"
+import ClassicHaircut from "./Addtocart/ClassicHaircut"
+import PrimeHairEssential from "./Addtocart/PrimeHairEssential"
+import HairColoringmens from "./Addtocart/HairColoringmens"
+import Primebeautyessentialmen from "./Addtocart/Primebeautyessentialmen"
 
 
 
@@ -200,6 +208,15 @@ const App=()=> {
         <Apstack.Screen name="PrimeWaxing" component={PrimeWaxing} />
         <Apstack.Screen name="PrimeFacials" component={PrimeFacials} />
         <Apstack.Screen name="PrimeHaircut" component={PrimeHaircut} />
+        <Apstack.Screen name="ClassicThreading" component={ClassicThreading} />
+        <Apstack.Screen name="ClassicBleaching" component={ClassicBleaching} />
+        <Apstack.Screen name="ClassicWaxing" component={ClassicWaxing} />
+        <Apstack.Screen name="ClassicFacial" component={ClassicFacial} />
+        <Apstack.Screen name="ClassicHaircut" component={ClassicHaircut} />
+        <Apstack.Screen name="PrimeHairEssential" component={PrimeHairEssential} />
+        <Apstack.Screen name="HairColoringmens" component={HairColoringmens} />
+        <Apstack.Screen name="Primebeautyessentialmen" component={Primebeautyessentialmen} />
+        
       </Apstack.Navigator>
     </NavigationContainer>
   );

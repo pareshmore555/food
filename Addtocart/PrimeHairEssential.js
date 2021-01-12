@@ -2,17 +2,17 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image,ScrollView}from "react-native";
 
-function PrimeHaircut({navigation}) {
+function PrimeHairEssential({navigation}) {
     return (
      <ScrollView style={styles.container}>
       <View>
      
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/boycut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/menshaircut.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Boy Cut</Text>
+           <Text style={styles.cardtitle}>Men</Text>
          
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -20,33 +20,33 @@ function PrimeHaircut({navigation}) {
            </TouchableOpacity>
            </View>
            <Text style={styles.txtdetail} >* </Text>
-           
-         </View>
-       </View>
-
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/babycut.png")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Baby cut</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
            <Text style={styles.txtdetail} >* </Text>
          </View>
        </View>
 
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/mashroomcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/haircutchildboy.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Mashroom Cut</Text>
+           <Text style={styles.cardtitle}>Child Boy</Text>
+           
+           <View style={{marginLeft:130,marginTop:10}}> 
+           <TouchableOpacity onPress={()=>{}}>
+           <Button title="Book"  ></Button>
+           </TouchableOpacity>
+           </View>
+           <Text style={styles.txtdetail} >* </Text>
+           <Text style={styles.txtdetail} >* </Text>
+         </View>
+       </View>
+
+       <View style={styles.card}>
+         <View style={styles.cardimagewraper}>
+           <Image source={require("../assets/shavingmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
+         </View>
+         <View style={styles.cardinfo}>
+           <Text style={styles.cardtitle}>Shaving</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -59,10 +59,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/dovecut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/lorealshavingmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Dove Cut</Text>
+           <Text style={styles.cardtitle}>Loreal Shaving</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -75,10 +75,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/applecut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/uptoshoulder.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Apple Cut</Text>
+           <Text style={styles.cardtitle}>Up to shoulder</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -91,10 +91,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/bluntcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/belowtoshoulder.jpeg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Blunt Cut</Text>
+           <Text style={styles.cardtitle}>Below to shoulder</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -107,44 +107,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/strightcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/liptowaistblow.jpeg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Stright cut</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-      
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/ucut.jpg")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>U cut</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-      
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/feathercut.jpeg")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Feather cut</Text>
+           <Text style={styles.cardtitle}>Lip to waist blow dry</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -157,27 +123,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/layercut.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/uptowaistmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>layer cut</Text>
-           
-           <View style={{marginLeft:130,marginTop:10}}> 
-           <TouchableOpacity onPress={()=>{}}>
-           <Button title="Book"  ></Button>
-           </TouchableOpacity>
-           </View>
-           <Text style={styles.txtdetail} >* </Text>
-           <Text style={styles.txtdetail} >* </Text>
-         </View>
-       </View>
-      
-       <View style={styles.card}>
-         <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/stepcut.jpg")}resizeMode="cover" style={styles.cardimage}/>
-         </View>
-         <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>step cut</Text>
+           <Text style={styles.cardtitle}>Up to waist </Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -190,10 +139,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/headmassage.jpg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/washhairmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Head Massage</Text>
+           <Text style={styles.cardtitle}>Hair Wash </Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -206,10 +155,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/hairheighlight.webp")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/blowremen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Hair Heighlight</Text>
+           <Text style={styles.cardtitle}>Blow dry </Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -222,10 +171,10 @@ function PrimeHaircut({navigation}) {
        </View>
        <View style={styles.card}>
          <View style={styles.cardimagewraper}>
-           <Image source={require("../assets/hairspa.jpeg")}resizeMode="cover" style={styles.cardimage}/>
+           <Image source={require("../assets/uptowaistmen.jpg")}resizeMode="cover" style={styles.cardimage}/>
          </View>
          <View style={styles.cardinfo}>
-           <Text style={styles.cardtitle}>Hair Spa</Text>
+           <Text style={styles.cardtitle}>Up to shoulder blow dry</Text>
            
            <View style={{marginLeft:130,marginTop:10}}> 
            <TouchableOpacity onPress={()=>{}}>
@@ -236,8 +185,6 @@ function PrimeHaircut({navigation}) {
            <Text style={styles.txtdetail} >* </Text>
          </View>
        </View>
-      
-      
       
 
        
@@ -261,7 +208,7 @@ function PrimeHaircut({navigation}) {
        </ScrollView>
     );
   }
-export default PrimeHaircut;
+export default PrimeHairEssential;
 const styles=StyleSheet.create({
     container:{
         flex:1,
@@ -287,7 +234,7 @@ const styles=StyleSheet.create({
       flex:1
     },
     cardimage:{
-     height:"100%",
+     height:"60%",
      width:"110%",
      alignSelf:'center',
      borderRadius:8,

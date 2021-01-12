@@ -2,7 +2,7 @@
 import React from "react"
 import{StyleSheet,View,Button,Text,TouchableOpacity,Image,ScrollView}from "react-native";
 
-function PrimeHaircut({navigation}) {
+function ClassicHaircut({navigation}) {
     return (
      <ScrollView style={styles.container}>
       <View>
@@ -261,7 +261,7 @@ function PrimeHaircut({navigation}) {
        </ScrollView>
     );
   }
-export default PrimeHaircut;
+export default ClassicHaircut;
 const styles=StyleSheet.create({
     container:{
         flex:1,
